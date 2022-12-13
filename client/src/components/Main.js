@@ -29,7 +29,7 @@ function Main({ socket }) {
 
 	useEffect(() => {
 		function fetchTodos() {
-			fetch("http://localhost:4000/api")
+			fetch("https://aayud-todos-server.onrender.com/api")
 				.then((res) => res.json())
 				.then((data) => setTodoList(data))
 				.catch((err) => console.error(err));
