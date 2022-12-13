@@ -3,7 +3,7 @@ import socketIO from "socket.io-client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
 import Home from "./components/Home";
-const socket = socketIO.connect("http://localhost:4000");
+const socket = socketIO.connect("https://aayud-todos-server.onrender.com");
 
 const App = () => {
 	return (
