@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 4000;
 
 const socketIO = require("socket.io")(http, {
 	cors: {
-		origin: process.env.ORIGIN || "http://localhost:3000",
+		origin: "https://aayud-todos.onrender.com",
 	},
 });
 
